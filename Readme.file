@@ -1,0 +1,32 @@
+Credit Scoring Model:
+   Objective:
+Predict an individual's creditworthiness using past financial data with machine learning classification algorithms.
+
+Features:
+* Feature engineering from financial history (income, debts, payment history)
+* Model built using Logistic Regression
+* Model evaluation using Precision, Recall, F1-Score, and ROC-AUC metrics
+
+Dataset:
+The dataset includes:
+*  income: Annual income (numeric)
+*  debts: Total debts (numeric)
+*  payment_history: Payment history (categorical: good, average, poor)
+*  creditworthy: Target label (1=creditworthy, 0=not creditworthy)
+
+Workflow:
+ 1.) Load Data: Import finance dataset and preprocess features
+ 2.) Train Model: Build credit scoring model with Logistic Regression
+ 3.) Evaluate: Display classification metrics and ROC-AUC score
+
+How to Run:
+   1.) Open the notebook in Google Colab.
+   2.) Run cells in order to reproduce results.
+   3.) Review accuracy and metrics.
+Result Sample:
+
+Classification Report
+---------------------
+Precision, Recall, F1-Score per class
+
+ROC-AUC Score: (value is shown in notebook output)
